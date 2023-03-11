@@ -65,12 +65,29 @@ form > div.campo {
     background-color: var(--cor001);
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
-    
+    border: 2px solid var(--cor001);
 }
 div.campo > label {
     display: none;
+}
+div.campo > span {
+    color: #381919;
+    font-size: 2em;
+    width: 40px;
+    padding: 15px;
+}
+div.campo > input {
+    background-color: var(--cor004);
+    font-size: 1em;
+    width: calc(100% - 44px);
+    transform: translateY(-12px);
+    height: 90%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+   
 }
 
 form > input[type=submit] {
